@@ -1,0 +1,44 @@
+#brutalist {
+position: absolute;
+width: 100px;
+height: 50px;
+
+background: #FFFAFA;
+}
+  
+#flat {
+position: relative;
+width: 100px;
+height: 50px;
+left: 0px;
+top: 100px;
+font-family: ariel;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+background-color: ivory;
+/* or 100% */
+
+text-align: center;
+border: none;
+
+color: #000000;
+}
+  
+  #material {
+position: relative;
+width: 100px;
+height: 50px;
+left: 0px;
+top: 120px;
+background: rgba(3, 247, 16, 0.9);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 16px;
+margin: 4px 2px;
+opacity: 0.6;
+transition: 0.3s;
+font-family: ariel;
+border-radius: 25px;
+}
+
+#material:hover {opacity: 1}
